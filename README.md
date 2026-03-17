@@ -1,90 +1,98 @@
 # 🛒 Flipkart Microservices System
 
-A scalable e-commerce backend application built using **Java, Spring Boot, and Microservices Architecture**.
-This system is designed with multiple independent services that handle specific business functionalities and communicate via REST APIs.
+A scalable e-commerce backend system built using **Java and Spring Boot**, following **microservices architecture** principles. This project demonstrates how large-scale applications are designed using independent, loosely coupled services.
 
 ---
 
 ## 🚀 Tech Stack
 
-* Java
-* Spring Boot
-* Spring Security (JWT Authentication)
-* Eureka Server (Service Discovery)
-* MySQL
-* Maven
-* REST APIs
+* **Backend:** Java, Spring Boot
+* **Security:** Spring Security, JWT Authentication
+* **Service Discovery:** Eureka Server
+* **Database:** MySQL
+* **Build Tool:** Maven
+* **Architecture:** Microservices
 
 ---
 
-## 🧩 Microservices Architecture
+## 🧩 Architecture Overview
 
-This project follows a **distributed microservices design**:
+The system is divided into multiple independent services:
 
-* **User Service** → Authentication & user management
-* **Product Service** → Product catalog & operations
-* **Payment Service** → Payment processing
-* **Image Service** → Image handling
-* **Eureka Server** → Service discovery
+* **User Service** → Handles authentication and user management
+* **Product Service** → Manages product catalog and operations
+* **Payment Service** → Processes payments
+* **Image Service** → Handles image storage and retrieval
+* **Eureka Server** → Enables service registration and discovery
 
----
-
-## 🔄 System Flow
-
-Frontend (Flipkart Clone)
-⬇
-API Calls
-⬇
-Microservices (User, Product, Payment, Image)
-⬇
-Eureka Server (Service Registry)
+Each service runs independently and communicates via REST APIs.
 
 ---
 
-## ✨ Features
+## 🔄 System Workflow
 
-* User Signup & Login (JWT Authentication)
+Client (Frontend Application)
+⬇
+REST API Requests
+⬇
+Microservices Layer
+⬇
+Service Discovery (Eureka)
+⬇
+Database
+
+---
+
+## ✨ Key Features
+
+* JWT-based Authentication & Authorization
 * Product Management (CRUD operations)
+* Payment Processing Integration
 * Image Upload & Handling
-* Payment Integration
 * Service Discovery using Eureka
-* RESTful API Communication
+* Scalable and modular backend design
 
 ---
 
-## ▶️ How to Run
+## ▶️ Getting Started
 
-1. Clone all repositories
-2. Start **Eureka Server**
-3. Run all microservices (User, Product, Payment, Image)
-4. Start the frontend application
-5. Access via browser
+1. Clone all related repositories
+2. Start the **Eureka Server**
+3. Run all microservices:
 
----
-
-## 📌 Project Purpose
-
-This project demonstrates:
-
-* Microservices architecture
-* Distributed system design
-* Backend scalability
-* Real-world e-commerce system development
+   * User Service
+   * Product Service
+   * Payment Service
+   * Image Service
+4. Run the frontend application
+5. Access the system in your browser
 
 ---
 
-## 📷 Future Improvements
+## 📌 Why This Project?
 
-* API Gateway integration
-* Docker & Kubernetes deployment
+This project highlights:
+
+* Real-world **microservices architecture**
+* Backend system design for scalability
+* Service-to-service communication
+* Hands-on experience with Spring Boot ecosystem
+
+---
+
+## 🚧 Future Enhancements
+
+* API Gateway implementation
+* Docker containerization
+* Kubernetes orchestration
 * Centralized logging & monitoring
-* CI/CD pipeline
+* CI/CD pipeline integration
 
 ---
 
 ## 👨‍💻 Author
 
 **Abinash Nayak**
-Backend Developer | Java | Spring Boot
+Aspiring Backend Engineer | Java | Spring Boot
 
 ---
